@@ -1,24 +1,15 @@
 package Une_histoire_de_note;
 
-public class étudiants {
-    private int id;
-    private String Nom;
-    private String Prénom;
-    private String DateDeNaissance;
-    private String Email;
-    private String NuméroDeTéléphone;
-    private String Groupe;
-    private String Tuteur;
+import java.time.LocalDate;
 
-    public étudiants(int id, String nom, String prénom, String dateDeNaissance, String email, String numéroDeTéléphone, String groupe, String tuteur) {
-        this.id = id;
-        Nom = nom;
-        Prénom = prénom;
-        DateDeNaissance = dateDeNaissance;
-        Email = email;
-        NuméroDeTéléphone = numéroDeTéléphone;
-        Groupe = groupe;
-        Tuteur = tuteur;
+class étudiants extends Person {
+    private String groupe;
+    private tuteurs tuteur;
+
+    public étudiants(int id, String nom, String prenom, LocalDate dateNaissance, String email, String telephone,
+                     String groupe, tuteurs tuteur) {
+        super(id, nom, prenom, dateNaissance, email, telephone);
+        this.groupe = groupe;
+        this.tuteur = tuteur;
     }
-
 }
