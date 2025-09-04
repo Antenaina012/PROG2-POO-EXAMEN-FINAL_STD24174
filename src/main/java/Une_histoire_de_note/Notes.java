@@ -25,6 +25,9 @@ public class Notes {
     public Instant getDate() {
         return date;
     }
+
+    public void update(int i, Instant parse, String correction) {
+    }
 }
 
 class NoteActuelle {
