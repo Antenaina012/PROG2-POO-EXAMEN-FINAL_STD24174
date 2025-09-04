@@ -1,15 +1,20 @@
 package Une_histoire_de_note;
 
-public class Cours {
+class Cours {
     private int id;
     private String label;
-    private int Crédit;
-    private String enseignant;
+    private int credits;
+    private Enseignants enseignant;
 
-    public Cours(int id, String label, int crédit, String enseignant) {
+    public Cours(int id, String label, int credits, Enseignants enseignant) {
         this.id = id;
         this.label = label;
-        Crédit = crédit;
+        this.credits = credits;
         this.enseignant = enseignant;
     }
+
+    public int getId() {
+        return id;
+    }
 }
+
