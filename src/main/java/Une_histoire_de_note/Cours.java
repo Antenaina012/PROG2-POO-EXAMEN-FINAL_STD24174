@@ -1,6 +1,6 @@
 package Une_histoire_de_note;
 
-class Cours {
+public class Cours {
     private int id;
     private String label;
     private int credits;

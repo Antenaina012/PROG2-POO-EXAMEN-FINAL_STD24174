@@ -2,7 +2,7 @@ package Une_histoire_de_note;
 
 import java.time.Instant;
 
-class Examen {
+public class Examen {
     private int id;
     private String titre;
     private Cours course;

@@ -2,10 +2,9 @@ package Une_histoire_de_note;
 
 import java.time.Instant;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
-class Notes {
+public class Notes {
     private double value;
     private Instant date;
     private String reason;
@@ -14,6 +13,9 @@ class Notes {
         this.value = value;
         this.date = date;
         this.reason = reason;
+    }
+
+    public Notes(étudiants etudiant, Examen examen, int i, Instant parse, String initial) {
     }
 
     public double getValue() {

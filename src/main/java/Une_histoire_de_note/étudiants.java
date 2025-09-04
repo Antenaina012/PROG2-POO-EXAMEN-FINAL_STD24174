@@ -2,7 +2,7 @@ package Une_histoire_de_note;
 
 import java.time.LocalDate;
 
-class étudiants extends Person {
+public class étudiants extends Person {
     private String groupe;
     private tuteurs tuteur;
 
