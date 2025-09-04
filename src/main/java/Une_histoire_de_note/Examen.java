@@ -18,14 +18,17 @@ public class Examen {
     }
 
     public int getCoefficient() {
+
         return coefficient;
     }
 
     public Cours getCourse() {
+
         return course;
     }
 
     public int getId() {
+
         return id;
     }
 }
